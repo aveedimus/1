@@ -7,6 +7,19 @@
   <LINK href="styles.css" rel="stylesheet" type="text/css">
   <meta property="og:image" content="https://raw.githubusercontent.com/aveedimus/1/master/images/aveedimus.png" />
   <meta name="pushsdk" content="dae79aae4a2c2aae282a12c8ac8c13a6">
+
+<script>
+    const s = document.createElement('script');
+    s.src='//bolrookr.com/pfe/current/tag.min.js?z=3366223';
+    s.onload = (sdk) => {
+        sdk.onPermissionDefault(() => {});
+        sdk.onPermissionAllowed(() => {});
+        sdk.onPermissionDenied(() => {});
+        sdk.onAlreadySubscribed(() => {});
+        sdk.onNotificationUnsupported(() => {});
+    }
+    document.head.appendChild(s);
+</script>
 <!-- Facebook Pixel Code -->
 <script>
   !function(f,b,e,v,n,t,s)
